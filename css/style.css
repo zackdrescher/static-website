@@ -1,5 +1,6 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto+Mono:300");
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
@@ -91,7 +92,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #4E6827;
+	background-color: #2A9D8F;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -121,19 +122,19 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #F9D477;
+	color: #F4A261;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #F9D477;
+	color: #F4A261;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
 }
 .navbar-custom .nav li.active a {
-	background-color: #F4B515;
+	background-color: #E9C46A;
 }
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
@@ -188,7 +189,7 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #C8DEA6;
+	background: #264653;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -200,9 +201,12 @@ hr {
 	display: inline-block;
 }
 #about p {
-	/* color: #818AA3; */
+	color: #F4A261;
 	margin-top: 20px;
 	margin-bottom: 30px;
+}
+#about h2 {
+	color: #E76F51;
 }
 /* Skills Section */
 #skills {
@@ -515,13 +519,13 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #4E6827;
+	background: #2A9D8F;
 }
 #contact h2 {
-	color: #F4B515;
+	color: #E76F51;
 }
 #contact hr {
-	background: #F9D477;
+	background: #E76F51;
 }
 #contact h3 {
 	padding-top: 20px;
@@ -533,14 +537,14 @@ ol.type li a:hover {
 	padding: 30px 0;
 }
 #contact i.fa {
-	color: #F4B515;
+	color: #F4A261;
 	margin-bottom: 10px;
 }
 #contact p {
-	color: #F4B515;
+	color: #F4A261;
 }
 #contact .text-danger {
-	color: #E87E04;
+	color: #E9C46A;
 	text-align: left;
 }
 label {
@@ -624,7 +628,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #121d1f;
+	background: #264653;
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 }
