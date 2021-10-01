@@ -1,6 +1,9 @@
-@import url("https//fonts.googleapis.com/css?family=Roboto+Mono:300");
+@font-face {
+	font-family: mainFont;
+	src: url("Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+  }
 body, html {
-	font-family: "Roboto Mono", sans-serif;
+	font-family: mainFont;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
